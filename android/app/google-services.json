@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "602401322034",
+    "firebase_url": "https://reactnativefirebase-646c1.firebaseio.com",
+    "project_id": "reactnativefirebase-646c1",
+    "storage_bucket": "reactnativefirebase-646c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602401322034:android:99cad3f125f92ea668f82b",
+        "android_client_info": {
+          "package_name": "com.lereveur.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602401322034-b6uh360bak0f3p9v9vdt5gfonp9m7ivo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-VXd6jPoUp9wLTWJuPrdxjd8UK-JSQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602401322034-b6uh360bak0f3p9v9vdt5gfonp9m7ivo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
