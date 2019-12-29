@@ -24,6 +24,10 @@ class ExampleScreen extends React.Component {
     this._fetchUser();
   }
 
+  _fetchUser() {
+    this.props.fetchUser();
+  }
+
   render() {
     return (
       <View
@@ -66,10 +70,6 @@ class ExampleScreen extends React.Component {
       </View>
     );
   }
-
-  _fetchUser() {
-    this.props.fetchUser();
-  }
 }
 
 ExampleScreen.propTypes = {
@@ -91,7 +91,4 @@ const mapDispatchToProps = dispatch => ({
   fetchUser: () => dispatch(ExampleActions.fetchUser()),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(ExampleScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(ExampleScreen);
